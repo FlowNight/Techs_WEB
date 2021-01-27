@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('login');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('login');
 
 Route::get('/welcome.blade.php', function () {
     return view('welcome');

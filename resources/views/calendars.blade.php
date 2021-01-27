@@ -10,9 +10,9 @@
 	
         <link rel="stylesheet" href="../resources/fullcalendar/core/main.css">
         <link rel="stylesheet" href="../resources/fullcalendar/daygrid/main.css">
-        <link rel="stylesheet" href="../resources/fullcalendar/timegrid/main.css">
+        <!-- <link rel="stylesheet" href="../resources/fullcalendar/timegrid/main.css">
         <link rel="stylesheet" href="../resources/fullcalendar/list/main.css">
-        <link rel="stylesheet" href="../resources/css/calendar.css">
+        <link rel="stylesheet" href="../resources/css/calendar.css"> -->
     </head>
     <body>
         <div id="calendrier"></div>
@@ -20,9 +20,9 @@
 		<!--===== Fichiers JS =====-->
         <script src="../resources/fullcalendar/core/main.js"></script>
         <script src="../resources/fullcalendar/daygrid/main.js"></script>
-        <script src="../resources/fullcalendar/timegrid/main.js"></script>
+        <!-- <script src="../resources/fullcalendar/timegrid/main.js"></script>
         <script src="../resources/fullcalendar/list/main.js"></script>
-        <script src="../resources/fullcalendar/interaction/main.js"></script>
+        <script src="../resources/fullcalendar/interaction/main.js"></script> -->
         <script src="../resources/js/calendar.js"></script>
-    </body>
+    </body> 
 </html>

@@ -44,5 +44,4 @@ window.onload = () => {
 
     xmlhttp.open('get', 'http://calendrier.test/liste.php', true)
     xmlhttp.send(null)
-
 }
