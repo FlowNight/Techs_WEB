@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('login');
 
 Route::get('/welcome.blade.php', function () {
     return view('welcome');
@@ -29,4 +30,4 @@ Route::get('/calendars.blade.php', function () {
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('logging');
+
