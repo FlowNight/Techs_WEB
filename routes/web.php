@@ -26,3 +26,7 @@ Route::get('/about.blade.php', function () {
 Route::get('/calendars.blade.php', function () {
     return view('calendars');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
