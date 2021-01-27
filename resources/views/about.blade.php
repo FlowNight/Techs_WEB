@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<title> In's TEM paisible | À Propos </title>
 
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="../resources/css/main.css" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
 		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
 		crossorigin="" />
@@ -26,38 +26,38 @@
 
 					<!--===== Logo =====-->
 
-					<h1><a href="index.html" id="logo"> In's <em> TEM paisible </em></a></h1>
+					<h1><a href="welcome.blade.php" id="logo"> In's <em> TEM paisible </em></a></h1>
 
 					<!--===== Nav =====-->
 
 					<nav id="nav">
+				<ul>
+					<li class="current"><a href="welcome.blade.php"> Accueil </a></li>
+					<li><a href="actuality.blade.php"> Actualité </a></li>
+					<li>
+						<a href="#"> Boutique </a>
 						<ul>
-							<li class="current"><a href="index.html"> Accueil </a></li>
-							<li><a href="actuality.html"> Actualité </a></li>
+							<li><a href="#"> Huile Essentielle </a></li>
+							<li><a href="#"> Relaxation </a></li>
 							<li>
-								<a href="#"> Boutique </a>
+								<a href="#"> Massages </a>
 								<ul>
-									<li><a href="#"> Huile Essentielle </a></li>
-									<li><a href="#"> Relaxation </a></li>
-									<li>
-										<a href="#"> Massages </a>
-										<ul>
-											<li><a href="#"> Ayurvédique </a></li>
-											<li><a href="#"> Californien </a></li>
-											<li><a href="#"> Femme Enceinte | Ayurvéda </a></li>
-											<li><a href="#"> Réflexologie Plantaire Thaï </a></li>
-											<li><a href="#"> Suédois </a></li>
-											<li><a href="#"> Thaï </a></li>
-										</ul>
-									</li>
+									<li><a href="#"> Ayurvédique </a></li>
+									<li><a href="#"> Californien </a></li>
+									<li><a href="#"> Femme Enceinte | Ayurvéda </a></li>
+									<li><a href="#"> Réflexologie Plantaire Thaï </a></li>
+									<li><a href="#"> Suédois </a></li>
+									<li><a href="#"> Thaï </a></li>
 								</ul>
 							</li>
-							<li><a href="gallery.html"> Galerie </a></li>
-							<li><a href="about.html"> À propos </a></li>
-							<li><a href="contact.html"> Contact </a></li>
 						</ul>
-					</nav>
-				</div>
+					</li>
+					<li><a href="gallery.blade.php"> Galerie </a></li>
+					<li><a href="about.blade.php"> À propos </a></li>
+					<li><a href="contact.blade.php"> Contact </a></li>
+				</ul>
+			</nav>
+		</div>
 
 			<!--===== Main =====-->
 
@@ -75,7 +75,7 @@
 												<p> Sidebar on the right, content on the left. </p>
 											</header>
 
-											<span class="image featured"><img src="images/banner.jpg" alt="" /></span>
+											<span class="image featured"><img src="../resources/img/banner.jpg" alt="" /></span>
 
 											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 											Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
@@ -191,16 +191,18 @@
 
 	<!--===== Fichier JavaScripts =====-->
 
-	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+		integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+		crossorigin=""></script>
 	<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 
-	<script src="assets/js/openstreetmap.js"></script>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="../resources/js/openstreetmap.js"></script>
+	<script src="../resources/js/jquery.min.js"></script>
+	<script src="../resources/js/jquery.dropotron.min.js"></script>
+	<script src="../resources/js/browser.min.js"></script>
+	<script src="../resources/js/breakpoints.min.js"></script>
+	<script src="../resources/js/util.js"></script>
+	<script src="../resources/js/main.js"></script>
 
 </body>
 

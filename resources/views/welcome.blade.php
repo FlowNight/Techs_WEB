@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<title> In's TEM paisible | Accueil </title>
 
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="../resources/css/main.css" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
 		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
 		crossorigin="" />
@@ -28,14 +28,14 @@
 
 			<!--===== Logo =====-->
 
-			<h1><a href="index.html" id="logo"> In's <em> TEM paisible </em></a></h1>
+			<h1><a href="welcome.blade.php" id="logo"> In's <em> TEM paisible </em></a></h1>
 
 			<!--===== Nav =====-->
 
 			<nav id="nav">
 				<ul>
-					<li class="current"><a href="index.html"> Accueil </a></li>
-					<li><a href="actuality.html"> Actualité </a></li>
+					<li class="current"><a href="welcome.blade.php"> Accueil </a></li>
+					<li><a href="actuality.blade.php"> Actualité </a></li>
 					<li>
 						<a href="#"> Boutique </a>
 						<ul>
@@ -54,9 +54,9 @@
 							</li>
 						</ul>
 					</li>
-					<li><a href="gallery.html"> Galerie </a></li>
-					<li><a href="about.html"> À propos </a></li>
-					<li><a href="contact.html"> Contact </a></li>
+					<li><a href="gallery.blade.php"> Galerie </a></li>
+					<li><a href="about.blade.php"> À propos </a></li>
+					<li><a href="contact.blade.php"> Contact </a></li>
 				</ul>
 			</nav>
 		</div>
@@ -66,7 +66,7 @@
 		<section id="banner">
 			<header>
 				<h2> In's TEM paisible | <em> Réservez-vous un moment de <a href="#"> bien-être </a></em></h2>
-				<a href="#" class="button"> Réserver </a>
+				<a href="calendars.blade.php" class="button"> Réserver </a>
 			</header>
 		</section>
 
@@ -123,7 +123,7 @@
 				<div class="row">
 					<section class="col-6 col-12-narrower">
 						<div class="box post">
-							<a href="#" class="image left"><img src="images/californien.jpg" alt="" /></a>
+							<a href="#" class="image left"><img src="../resources/img/californien.jpg" alt="" /></a>
 							<div class="inner">
 								<h3> Californien </h3>
 								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
@@ -133,7 +133,7 @@
 					</section>
 					<section class="col-6 col-12-narrower">
 						<div class="box post">
-							<a href="#" class="image left"><img src="images/reflexologie_plantaire.jpg" alt="" /></a>
+							<a href="#" class="image left"><img src="../resources/img/reflexologie_plantaire.jpg" alt="" /></a>
 							<div class="inner">
 								<h3> Réflexologie Plantaire Thaï </h3>
 								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
@@ -145,7 +145,7 @@
 				<div class="row">
 					<section class="col-6 col-12-narrower">
 						<div class="box post">
-							<a href="#" class="image left"><img src="images/femme_enceinte.jpg" alt="" /></a>
+							<a href="#" class="image left"><img src="../resources/img/femme_enceinte.jpg" alt="" /></a>
 							<div class="inner">
 								<h3> Femme Enceinte | Ayurvéda </h3>
 								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
@@ -155,7 +155,7 @@
 					</section>
 					<section class="col-6 col-12-narrower">
 						<div class="box post">
-							<a href="#" class="image left"><img src="images/thai.jpg" alt="" /></a>
+							<a href="#" class="image left"><img src="../resources/img/thai.jpg" alt="" /></a>
 							<div class="inner">
 								<h3> Thaï </h3>
 								<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis,
@@ -173,7 +173,7 @@
 			<div class="container">
 				<header>
 					<h2> Alors vous êtes prêt(e) ?</h2>
-					<a href="#" class="button"> Réserver </a>
+					<a href="calendars.blade.php" class="button"> Réserver </a>
 				</header>
 			</div>
 		</section>
@@ -243,13 +243,13 @@
 		crossorigin=""></script>
 	<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 
-	<script src="assets/js/openstreetmap.js"></script>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="../resources/js/openstreetmap.js"></script>
+	<script src="../resources/js/jquery.min.js"></script>
+	<script src="../resources/js/jquery.dropotron.min.js"></script>
+	<script src="../resources/js/browser.min.js"></script>
+	<script src="../resources/js/breakpoints.min.js"></script>
+	<script src="../resources/js/util.js"></script>
+	<script src="../resources/js/main.js"></script>
 
 </body>
 
